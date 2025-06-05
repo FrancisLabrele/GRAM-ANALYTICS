@@ -13,11 +13,11 @@ cd GRAM-ANALYTICS
 pip install pdm
 ```
 
-- (optionnel) Si vous voyez qu'il manque des librairies/dépendances faites :
+- (OPTIONNEL) Si vous voyez qu'il manque des librairies/dépendances faites :
 ```bash
 pdm add (le nom de la librairie)
 ```
-- Les librairies de bases sont déjà installées ainsi que xgboost, lightgbm, catboost et imbalanced-learn
+- (OPTIONNEL) Les librairies de bases sont déjà installées ainsi que xgboost, lightgbm, catboost et imbalanced-learn
 ensuite il faut : 
 ```bash
   git add pyproject.toml pdm.lock
