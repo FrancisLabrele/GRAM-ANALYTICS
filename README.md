@@ -17,7 +17,7 @@ pip install pdm
 ```bash
 pdm add (le nom de la librairie)
 ```
-Les librairies de bases sont déjà installées ainsi que xgboost, lightgbm et imbalanced-learn
+Les librairies de bases sont déjà installées ainsi que xgboost, lightgbm, catboost et imbalanced-learn
 ensuite il faut : 
 ```bash
 git add pyproject.toml pdm.lock
