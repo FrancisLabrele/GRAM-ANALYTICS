@@ -19,13 +19,17 @@ pdm add (le nom de la librairie)
 ```
 Les librairies de bases sont déjà installées ainsi que xgboost, lightgbm et imbalanced-learn
 ensuite il faut : 
+```bash
 git add pyproject.toml pdm.lock
 git commit -m "Ajout/modification des dépendances"
 git push
+```
 
 4. Mettre à jour l'environnement après le git pull :
+```bash
 git pull
 pdm install
+```
 
 5. Pour lancer les notebooks :
 ```bash
