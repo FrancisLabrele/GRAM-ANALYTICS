@@ -1,6 +1,6 @@
 Projet GRAM-ANALYTICS
 
-## Installation de l’environnement
+## Installation et utilisation de l’environnement
 
 ### 1. Cloner le dépôt :
 ```bash
