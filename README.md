@@ -21,7 +21,7 @@ Les librairies de bases sont déjà installées ainsi que xgboost, lightgbm, cat
 ensuite il faut : 
 ```bash
 git add pyproject.toml pdm.lock
-git commit -m "Ajout/modification des dépendances"
+git commit -m "Ajout dépendances"
 git push
 ```
 
