@@ -13,7 +13,7 @@ cd GRAM-ANALYTICS
 pip install pdm
 ```
 
-2 bis. Si vous voyez qu'il manque des librairies/dépendances faites :
+- (optionnel) Si vous voyez qu'il manque des librairies/dépendances faites :
 ```bash
 pdm add (le nom de la librairie)
 ```
