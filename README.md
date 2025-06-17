@@ -3,6 +3,18 @@
 Ce projet GitHub regroupe les résultats les plus pertinents que nous avons obtenus après plusieurs phases d’affinage, afin que le dépôt soit clair et facile à utiliser.
 Par ailleurs, vous trouverez plus bas la marche à suivre pour lancer les notebooks Jupyter avec PDM.
 
+## Arborescence
+
+- `Data/`
+  - `Cleaned_Dataframe.csv` : base de données nettoyée au format CSV.
+
+- `Cleaning/`
+  - Notebook ayant servi au nettoyage de la base de données.
+
+- `Analyses/`
+  - `Prediction/` : contient les modèles de prédiction utilisés ainsi que leurs résultats.
+  - `EDA/` : regroupe les notebooks de l’ACP (PCA) et des statistiques descriptives.
+
 ------------------------------------------------------------------------------------------------------------------------------
 ## Installation et utilisation de l’environnement
 
