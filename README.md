@@ -1,5 +1,9 @@
-Projet GRAM-ANALYTICS
+# Projet GRAM-ANALYTICS
+## Présentation du github
+Ce projet GitHub regroupe les résultats les plus pertinents que nous avons obtenus après plusieurs phases d’affinage, afin que le dépôt soit clair et facile à utiliser.
+Par ailleurs, vous trouverez plus bas la marche à suivre pour lancer les notebooks Jupyter avec PDM.
 
+------------------------------------------------------------------------------------------------------------------------------
 ## Installation et utilisation de l’environnement
 
 ### 1. Cloner le dépôt :
