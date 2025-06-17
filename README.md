@@ -4,11 +4,17 @@ Ce projet GitHub regroupe les résultats les plus pertinents que nous avons obte
 Par ailleurs, vous trouverez plus bas la marche à suivre pour lancer les notebooks Jupyter avec PDM.
 
 ## Arborescence
-- Dans le dossier **Data**, vous trouverez le fichier Cleaned_Dataframe.csv, qui est le csv de la base de donnée nettoyée.
-- Dans le dossier **Cleaning** se trouve le notebook de la base de donnée nettoyée.
-- Le dossier **Analyses** contient :
-  le dossier **Prediction**, vous rouverez les modèles de prédictions utilisés et leurs résultats.
-  et le dossier **EDA** contient les notebooks de la PCA et des statistiques descriptives.
+
+- `Data/`
+  - `Cleaned_Dataframe.csv` : base de données nettoyée au format CSV.
+
+- `Cleaning/`
+  - Notebook ayant servi au nettoyage de la base de données.
+
+- `Analyses/`
+  - `Prediction/` : contient les modèles de prédiction utilisés ainsi que leurs résultats.
+  - `EDA/` : regroupe les notebooks de l’ACP (PCA) et des statistiques descriptives.
+
 ------------------------------------------------------------------------------------------------------------------------------
 ## Installation et utilisation de l’environnement
 
