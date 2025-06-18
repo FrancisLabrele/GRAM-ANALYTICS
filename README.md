@@ -12,7 +12,7 @@ Par ailleurs, vous trouverez plus bas la marche à suivre pour lancer les notebo
   - Notebook ayant servi au nettoyage de la base de données.
 
 - `Analyses/`
-  - `Prediction/` : contient les modèles de prédiction utilisés ainsi que leurs résultats.
+  - `Prediction/` : contient les modèles de prédiction utilisés ainsi que leurs résultats (cross validation).
   - `EDA/` : regroupe les notebooks de l’ACP (PCA) et des statistiques descriptives.
  
 
