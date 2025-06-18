@@ -14,6 +14,9 @@ Par ailleurs, vous trouverez plus bas la marche à suivre pour lancer les notebo
 - `Analyses/`
   - `Prediction/` : contient les modèles de prédiction utilisés ainsi que leurs résultats.
   - `EDA/` : regroupe les notebooks de l’ACP (PCA) et des statistiques descriptives.
+ 
+
+- Les Autres fichiers de données brutes se trouvent ici : https://amubox.univ-amu.fr/s/ncLCs2jEMKrFedZ
 
 ------------------------------------------------------------------------------------------------------------------------------
 ## Installation et utilisation de l’environnement
