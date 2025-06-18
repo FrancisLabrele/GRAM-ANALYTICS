@@ -1,37 +1,56 @@
-Projet GRAM-ANALYTICS
+# Projet GRAM-ANALYTICS
+## Présentation du github
+Ce projet GitHub regroupe les résultats les plus pertinents que nous avons obtenus après plusieurs phases d’affinage, afin que le dépôt soit clair et facile à utiliser.
+Par ailleurs, vous trouverez plus bas la marche à suivre pour lancer les notebooks Jupyter avec PDM.
 
-## Installation de l’environnement
+## Arborescence
 
-1. Cloner le dépôt :
+- `Data/`
+  - `Cleaned_Dataframe.csv` : base de données nettoyée au format CSV.
+
+- `Cleaning/`
+  - Notebook ayant servi au nettoyage de la base de données.
+
+- `Analyses/`
+  - `Prediction/` : contient les modèles de prédiction utilisés ainsi que leurs résultats (cross validation).
+  - `EDA/` : regroupe les notebooks de l’ACP (PCA) et des statistiques descriptives.
+ 
+
+- Les Autres fichiers de données brutes se trouvent ici : https://amubox.univ-amu.fr/s/ncLCs2jEMKrFedZ
+
+------------------------------------------------------------------------------------------------------------------------------
+## Installation et utilisation de l’environnement
+
+### 1. Cloner le dépôt :
 ```bash
 git clone https://github.com/FrancisLabrele/GRAM-ANALYTICS.git
 cd GRAM-ANALYTICS
 ```
 
-2. Installer pdm si ce n'est pas déjà fait :
+### 2. Installer pdm si ce n'est pas déjà fait :
 ```bash
 pip install pdm
 ```
 
-3. Si vous voyez qu'il manque des librairies/dépendances faites :
+- (OPTIONNEL) Si vous voyez qu'il manque des librairies/dépendances faites :
 ```bash
 pdm add (le nom de la librairie)
 ```
-Les librairies de bases sont déjà installées ainsi que xgboost, lightgbm, catboost et imbalanced-learn
+- (OPTIONNEL) Les librairies de bases sont déjà installées ainsi que xgboost, lightgbm, catboost et imbalanced-learn
 ensuite il faut : 
 ```bash
-git add pyproject.toml pdm.lock
-git commit -m "Ajout dépendances"
-git push
+  git add pyproject.toml pdm.lock
+  git commit -m "Ajout dépendances"
+  git push
 ```
 
-4. Mettre à jour l'environnement après le git pull :
+### 3. Mettre à jour l'environnement après le git pull :
 ```bash
 git pull
 pdm install
 ```
 
-5. Pour lancer les notebooks :
+### 4. Pour lancer les notebooks :
 ```bash
 pdm run jupyter notebook
 ```
